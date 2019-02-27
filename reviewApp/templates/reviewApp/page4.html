@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Page 4</h1>
+
+Came from {{ lastPage }}<br>
+
+
+
+<a href="{% url 'home' 'page4' %}">Home</a>
+<a href="{% url 'page2' 'page4' %}">Page2</a>
+<a href="{% url 'page3' 'page4' %}">Page3</a>
+<a href="{% url 'page4' 'page4' %}">Page4</a>
+<a href="{% url 'page5' 'page4' %}">Page5</a>
+
+</body>
+</html>
